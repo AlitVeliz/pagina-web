@@ -7,10 +7,9 @@ const pausar=()=>{
     console.dir(video)
 }
 
+
 let canvas=document.querySelector("canvas");
 let lienzo=canvas.getContext("2d");
-
-
 
 lienzo.fillStyle="white"
 lienzo.globalAlpha=0.8
@@ -18,12 +17,9 @@ lienzo.fillRect(40,5,60,35)
 
 
 
-
 lienzo.fillStyle="#181D31"
 lienzo.globalAlpha=0.8
 lienzo.fillRect(45,10,50,25)
-
-
 
 lienzo.fillStyle="white"
 lienzo.globalAlpha=0.8
@@ -36,8 +32,6 @@ lienzo.lineTo(50,45)
 lienzo.fill()
 lienzo.closePath()
 
-
-
 lienzo.fillStyle="#181D31"
 lienzo.globalAlpha=0.8
 lienzo.beginPath()
@@ -48,12 +42,6 @@ lienzo.lineTo(40,60)
 lienzo.lineTo(55,50)
 lienzo.fill()
 lienzo.closePath()
-
-
-
-
-
-
 
 
 

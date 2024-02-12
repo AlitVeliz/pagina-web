@@ -1,5 +1,5 @@
 body{
-    background-color: #181D31;
+    background-color:#181D31;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -10,7 +10,7 @@ nav{
     height: 68px;
     padding: 10px;
     display: flex;
-    justify-content: end;
+    gap: 800px;
     margin: 0px 40px;
    
 }
@@ -25,6 +25,7 @@ nav{
      box-shadow: 2px 3px #678983;
      text-decoration: none;
 }
+
 
 ul{
     padding: 8px 0px;

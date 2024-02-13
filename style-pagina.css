@@ -199,14 +199,15 @@ article{
   align-items: center;
 }
 #seccion-video-pagina2{
-    background-color: pink;
-    height: 700px;
+    background-color: black;
+    height: 610px;
     width: 900px;
     padding: 1px;
     margin: 0px;
     display: grid;
     row-gap: 0px;
     align-items: center;
+    
    
   
 }
@@ -218,7 +219,7 @@ article{
 }
 #video{
     width:889px ;
-    height:592px ;
+    height:500px ;
 }
 #barra-rep{
     background-color: #1d1d1d;

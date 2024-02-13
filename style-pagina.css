@@ -17,7 +17,7 @@ nav{
 
 
  .botonNav{
-    color: #678983;
+    color: #181d31;
      background-color:#E6DDC4 ;
      height: 80px;
      width: 150px;
@@ -26,7 +26,9 @@ nav{
      font-size: 16px;
      box-shadow: 2px 3px #678983;
      text-decoration: none;
+
 }
+
 
 
 ul{
@@ -260,13 +262,23 @@ article{
    gap: 5px;
   
 }
-ul{
-cursor: pointer;
-transition: 0.3s;
+.boton-caja{
+    transition: transform all 0.3s ease;
+    }
+
+.boton-caja:active {
+    transform: translate(2px, 2px);
 }
-.botonNav,.boton-caja:active{
-    transform: scale(0.9);
+
+.botonNav{
+    transition: transform all 0.3s ease;
 }
+.botonNav:active{
+    transform: translate(2px, 2px);
+}
+
+
+
 #seccion-pagina3{
     height: 100px;
     padding: 100px 20px;
@@ -331,7 +343,7 @@ transition: 0.3s;
 .caja-juego2{
     height: 400px;
     width: 279px;
-    background-color: grey;
+   
    
 }
 

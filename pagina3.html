@@ -15,7 +15,7 @@
         </a>
 
         <ul>
-        <li class="botonNav2"><a class="botonNav"href="./pagina2.html">HISTORIA</a></li>
+        <li><a class="botonNav"href="./pagina2.html">HISTORIA</a></li>
         <li><a class="botonNav"href="">JUGUEMOS</a></li>
       </ul>
     </nav>
@@ -31,20 +31,26 @@
        <h2 id="titulo2-pagina3">Armemos el rompecabezas y veamos que imagen es...</h2>
 
     <section class="seccion-juego">
-     <div class="caja-juego" ><p class="parrafo-juego">Arrastre y suelte la imagen aquí</p></div>
-     <div class="caja-juego"><p class="parrafo-juego">Arrastre y suelte la imagen aquí</p></div>
-     <div class="caja-juego"><p class="parrafo-juego">Arrastre y suelte la imagen aquí</p></div>
+        <div class="caja-juego" id="caja1" ondrop="soltar(event)" ondragover="permitirSoltar(event)">
+            <p class="parrafo-juego">Arrastre y suelte la imagen aquí</p>
+        </div>
+        <div class="caja-juego" id="caja2" ondrop="soltar(event)" ondragover="permitirSoltar(event)">
+            <p class="parrafo-juego">Arrastre y suelte la imagen aquí</p>
+        </div>
+        <div class="caja-juego" id="caja3" ondrop="soltar(event)" ondragover="permitirSoltar(event)">
+            <p class="parrafo-juego">Arrastre y suelte la imagen aquí</p>
     </section>
 
     <section class="seccion-juego2">
-     <div class="caja-juego2"><img  class="imagen-juego" src="imagenes-videos/rompe2.png" alt=""></div>
-     <div class="caja-juego2"><img  class="imagen-juego" src="imagenes-videos/Rompe1.png" alt=""></div>
-     <div class="caja-juego2"><img  class="imagen-juego"  src="imagenes-videos/Rompe3.png" alt=""></div>
+        <div class="caja-juego2"><img id="imagen1" class="imagen-juego" src="imagenes-videos/rompe2.png" alt="" draggable="true" ondragstart="arrastre(event)"></div>
+        <div class="caja-juego2"><img id="imagen2" class="imagen-juego" src="imagenes-videos/Rompe1.png" alt="" draggable="true" ondragstart="arrastre(event)"></div>
+        <div class="caja-juego2"><img id="imagen3" class="imagen-juego" src="imagenes-videos/Rompe3.png" alt="" draggable="true" ondragstart="arrastre(event)"></div>
     </section>
 
-    <button id="boton-juego">Reiniciar</button>
+    <button id="boton-juego" onclick="reiniciar()">Reiniciar</button>
     
 </main>
+
 
 <script src="pagina.js"></script>
 
